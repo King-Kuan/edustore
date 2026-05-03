@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
-const rawPort = process.env.PORT;
+const rawPort = process.env.PORT || 3000;
 
 if (!rawPort) {
   throw new Error(
